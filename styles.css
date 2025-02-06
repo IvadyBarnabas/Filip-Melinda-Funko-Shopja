@@ -197,10 +197,10 @@ content: url('kepek/deadpool&headpoolfigure.jpg');
 #sagemode:hover{
     content: url('kepek/sagemodefigure.jpg');
 }
-#gihunkicking{
+#frontman{
     transition: opacity 0.3s ease-in-out;
     display: block;
 }
-#gihunkicking:hover{
-    content: url('kepek/456figure.jpg');
+#frontman:hover{
+    content: url('kepek/frontmanfigure.jpg');
 }
