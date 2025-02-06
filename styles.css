@@ -176,3 +176,31 @@ footer {
 #scream:hover{
     content: url('kepek/screamfigure.jpg');
 }
+#deadpoolheadpool{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#deadpoolheadpool:hover{
+content: url('kepek/deadpool&headpoolfigure.jpg');
+}
+#vigilantedeku{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#vigilantedeku:hover{
+    content: url('kepek/vigilantedekufigure.jpg');
+}
+#sagemode{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#sagemode:hover{
+    content: url('kepek/sagemodefigure.jpg');
+}
+#gihun{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#gihun:hover{
+    content: url('kepek/456figure.jpg');
+}
