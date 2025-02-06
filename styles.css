@@ -42,6 +42,8 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 200px;
+    height: 380px;
+    object-fit: cover;
 }
 
 .product img {
@@ -166,4 +168,11 @@ footer {
 }
 #droid:hover{
     content: url('kepek/droidfigure.jpg');
+}
+#scream{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#scream:hover{
+    content: url('kepek/screamfigure.jpg');
 }
