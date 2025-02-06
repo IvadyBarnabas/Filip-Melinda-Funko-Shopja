@@ -132,3 +132,38 @@ footer {
 #harleyquinn:hover{
     content: url('kepek/harleyquinnfigure.jpg');
 }
+#moonknight{
+    transition: opacity 0.3s ease-in-out; 
+    display: block;
+}
+#moonknight:hover{
+    content: url('kepek/moonknightfigure.jpg');
+}
+#mimikyu{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#mimikyu:hover{
+    content: url('kepek/mimikyufigure.jpg');
+}
+#ladypool{
+    transition: opacity 0.3s ease-in-out;   
+    display: block;
+}
+#ladypool:hover{
+    content: url('kepek/ladypoolfigure.jpg');
+}
+#denji{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#denji:hover{
+    content: url('kepek/denjifigure.jpg');
+}
+#droid{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#droid:hover{
+    content: url('kepek/droidfigure.jpg');
+}
