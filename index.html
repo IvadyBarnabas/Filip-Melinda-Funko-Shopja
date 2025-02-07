@@ -14,26 +14,11 @@
             <ul>
                 <li><a href="#Kezdolap">Kezdőlap</a></li>
                 <li><a href="#Termekek">Termékek</a></li>
-                <li><a href="#Kapcsolat">Kapcsolat</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
             </ul>
             <section>
                 <input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="Keresés termékek között...">
-            </section>
-            <script>
-                function filterProducts() {
-                    let input = document.getElementById("searchInput").value.toLowerCase();
-                    let products = document.getElementsByClassName("product");
-                    
-                    for (let product of products) {
-                        let title = product.getElementsByTagName("h2")[0].innerText.toLowerCase();
-                        if (title.includes(input)) {
-                            product.style.display = "block";
-                        } else {
-                            product.style.display = "none";
-                        }
-                    }
-                }
-            </script>
+            </section>          
         </nav>
     </header>
     <main>
@@ -193,5 +178,20 @@
     <footer>
         <p>&copy; 2025 Webshop. Minden jog fenntartva.</p>
     </footer>
+    <script>
+        function filterProducts() {
+            let input = document.getElementById("searchInput").value.toLowerCase();
+            let products = document.getElementsByClassName("product");
+            
+            for (let product of products) {
+                let title = product.getElementsByTagName("h2")[0].innerText.toLowerCase();
+                if (title.includes(input)) {
+                    product.style.display = "block";
+                } else {
+                    product.style.display = "none";
+                }
+            }
+        }
+    </script>
 </body>
 </html>
