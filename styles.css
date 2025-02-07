@@ -321,7 +321,38 @@ content: url('kepek/deadpool&headpoolfigure.jpg');
 #pochita:hover{
     content: url('kepek/pochitafigure.jpg');
 }
-
-.soregy {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+#shadow{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#shadow:hover{
+    content: url('kepek/shadowfigure.jpg');
+}
+#jack{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#jack:hover{
+    content: url('kepek/jackfigure.jpg');
+}
+#keqing{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#keqing:hover{
+    content: url('kepek/keqingfigure.jpg');
+}
+#verstappen{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#verstappen:hover{
+content: url('kepek/verstappenfigure.jpg');
+}
+#mandovalentine{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#mandovalentine:hover{
+content: url('kepek/mandovalentinefigure.jpg');
 }
