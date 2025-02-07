@@ -204,3 +204,31 @@ content: url('kepek/deadpool&headpoolfigure.jpg');
 #frontman:hover{
     content: url('kepek/frontmanfigure.jpg');
 }
+#thebatman{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#thebatman:hover{
+    content: url('kepek/batman22figure.jpg');
+}
+#shuri{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#shuri:hover{
+    content: url('kepek/shurifigure.jpg');
+}
+#optimusprime{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#optimusprime:hover{
+    content: url('kepek/optimusprimefigure.jpg');
+}
+#pochita{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#pochita:hover{
+    content: url('kepek/pochitafigure.jpg');
+}
