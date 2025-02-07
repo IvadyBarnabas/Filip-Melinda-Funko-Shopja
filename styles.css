@@ -86,9 +86,8 @@ nav ul li a {
 }
 nav ul li a:hover {
     background-color: #939496;
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: ease-in-out 0.1s;
-;
 }
 .navigation:hover {
     background-color: #939496;
@@ -121,7 +120,7 @@ nav ul li a:hover {
 }
 @media screen and (max-width: 400px) {
     .products {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
