@@ -81,11 +81,14 @@ nav ul li a {
     padding-right: 4px;
     padding-top: 1px;
     padding-bottom: 1px;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 nav ul li a:hover {
     background-color: #939496;
     transform: scale(1.1);
     transition: ease-in-out 0.1s;
+;
 }
 .navigation:hover {
     background-color: #939496;
@@ -94,16 +97,34 @@ nav ul li a:hover {
 }
 
 .product-list {
-  /*   display: flex;
-    justify-content: center;
-    gap: 20px; */
     padding: 20px;
 }
 
-.oszlop {
+.products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 }
+@media screen and (max-width: 1300px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 900px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+@media screen and (max-width: 600px) {
+    .products {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 400px) {
+    .products {
+        grid-template-columns: 1fr;
+    }
+}
+
 .product {
     background: white;
     padding: 15px;

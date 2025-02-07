@@ -47,9 +47,7 @@ a{
     color: azure;
 }
 .back_button {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 725px;
+    margin-right: 1;
     border: solid 1px #000;
     border-radius: 5px;
     padding-left: 10px;
@@ -58,6 +56,6 @@ a{
 }
 .back_button:hover {
     background-color: #939496;
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: ease-in-out 0.1s;
 }
