@@ -71,12 +71,13 @@ nav ul li {
 }
 
 nav ul li a {
+    max-width: fit-content;
+    border: solid 1px #000;
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
-    border: solid 1px #f1eded;
     border-radius: 10px;
-    background-color: #636363;
+    background-color:  #6b6c6e;
     padding-left: 4px;
     padding-right: 4px;
     padding-top: 1px;
@@ -103,6 +104,26 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 }
+a{
+    text-decoration: none;
+    text-align: center;
+    color: azure;
+}
+.back_button {
+    max-width: fit-content;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #6b6c6e;
+
+}
+.back_button:hover {
+    background-color: #939496;
+    transform: scale(1.01);
+    transition: ease-in-out 0.1s;
+}
+
 @media screen and (max-width: 1300px) {
     .products {
         grid-template-columns: 1fr 1fr 1fr 1fr;
