@@ -293,3 +293,185 @@ footer {
     width: 100%;
     margin-top: 10px;
 }
+#xmas {
+    transition: opacity 0.3s ease-in-out;
+}
+
+#xmas:hover {
+    content: url('kepek/xmasfigure.jpg');
+}
+#tasm {
+    transition: opacity 0.3s ease-in-out;
+}
+
+#tasm:hover {
+    content: url('kepek/tasmfigure.jpg');
+}
+#bodegacat{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#bodegacat:hover{
+    content: url('kepek/bodegacatfigure.jpg');
+}
+#carnagegwen{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#carnagegwen:hover{
+    content: url('kepek/carnagegwenfigure.jpg');
+}
+#antivenom{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#antivenom:hover{
+    content: url('kepek/antivenomfigure.jpg');
+}
+#omniman{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#omniman:hover{
+    content: url('kepek/omnimanfigure.jpg');
+}
+#harleyquinn{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#harleyquinn:hover{
+    content: url('kepek/harleyquinnfigure.jpg');
+}
+#moonknight{
+    transition: opacity 0.3s ease-in-out; 
+    display: block;
+}
+#moonknight:hover{
+    content: url('kepek/moonknightfigure.jpg');
+}
+#mimikyu{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#mimikyu:hover{
+    content: url('kepek/mimikyufigure.jpg');
+}
+#ladypool{
+    transition: opacity 0.3s ease-in-out;   
+    display: block;
+}
+#ladypool:hover{
+    content: url('kepek/ladypoolfigure.jpg');
+}
+#denji{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#denji:hover{
+    content: url('kepek/denjifigure.jpg');
+}
+#droid{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#droid:hover{
+    content: url('kepek/droidfigure.jpg');
+}
+#scream{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#scream:hover{
+    content: url('kepek/screamfigure.jpg');
+}
+#deadpoolheadpool{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#deadpoolheadpool:hover{
+content: url('kepek/deadpool&headpoolfigure.jpg');
+}
+#vigilantedeku{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#vigilantedeku:hover{
+    content: url('kepek/vigilantedekufigure.jpg');
+}
+#sagemode{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#sagemode:hover{
+    content: url('kepek/sagemodefigure.jpg');
+}
+#frontman{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#frontman:hover{
+    content: url('kepek/frontmanfigure.jpg');
+}
+#thebatman{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#thebatman:hover{
+    content: url('kepek/batman22figure.jpg');
+}
+#shuri{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#shuri:hover{
+    content: url('kepek/shurifigure.jpg');
+}
+#optimusprime{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#optimusprime:hover{
+    content: url('kepek/optimusprimefigure.jpg');
+}
+#pochita{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#pochita:hover{
+    content: url('kepek/pochitafigure.jpg');
+}
+#shadow{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#shadow:hover{
+    content: url('kepek/shadowfigure.jpg');
+}
+#jack{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#jack:hover{
+    content: url('kepek/jackfigure.jpg');
+}
+#keqing{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#keqing:hover{
+    content: url('kepek/keqingfigure.jpg');
+}
+#verstappen{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#verstappen:hover{
+content: url('kepek/verstappenfigure.jpg');
+}
+#mandovalentine{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#mandovalentine:hover{
+content: url('kepek/mandovalentinefigure.jpg');
+}
