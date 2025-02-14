@@ -475,3 +475,10 @@ content: url('kepek/verstappenfigure.jpg');
 #mandovalentine:hover{
 content: url('kepek/mandovalentinefigure.jpg');
 }
+#megazord{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#megazord:hover{
+content: url('kepek/megazordfigure.jpg');
+}
