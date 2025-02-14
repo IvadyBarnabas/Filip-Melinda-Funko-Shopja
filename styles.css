@@ -321,13 +321,6 @@ footer {
 #carnagegwen:hover{
     content: url('kepek/carnagegwenfigure.jpg');
 }
-#antivenom{
-    transition: opacity 0.3s ease-in-out;
-    display: block;
-}
-#antivenom:hover{
-    content: url('kepek/antivenomfigure.jpg');
-}
 #omniman{
     transition: opacity 0.3s ease-in-out;
     display: block;
@@ -488,4 +481,11 @@ content: url('kepek/megazordfigure.jpg');
 }
 #bumblebee:hover{
 content: url('kepek/bumblebeefigure.jpg');
+}
+#antivenom{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#antivenom:hover{
+    content: url('kepek/antivenomfigure.jpg');
 }
