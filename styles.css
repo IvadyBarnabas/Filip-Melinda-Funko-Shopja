@@ -246,7 +246,7 @@ footer {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 200px;
+    width: 150px;
     max-height: 300px;
     overflow-y: auto;
 }
@@ -481,4 +481,11 @@ content: url('kepek/mandovalentinefigure.jpg');
 }
 #megazord:hover{
 content: url('kepek/megazordfigure.jpg');
+}
+#bumblebee{
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+}
+#bumblebee:hover{
+content: url('kepek/bumblebeefigure.jpg');
 }
